@@ -1,11 +1,7 @@
-//Co-authored-by: Niko Rivas rivasniko@gmail.com
-//Co-authored-by: Rafael Petrachini raffp@me.com
+//Co-authored-by: Niko Rivas <rivasniko@gmail.com>
+//Co-authored-by: Rafael Petrachini <raffp@me.com>
 
 Describe: vowelCounter();
-
-Test: "It recognizes a single vowel."
-Code: vowelCounter("a");
-Expected Output: 1
 
 Test: "It recognizes multiple vowels in a single word."
 Code: vowelCounter("cater");
@@ -41,7 +37,7 @@ Describe: pigLatin();
 
 Test: "For any input that's a consonant
 Code: pigLatin("j");
-Expected Output: False
+Expected Output: False PASS
 
 Test: "For words beginning with a vowel, add "way" to the end. "
 Code: pigLatin("away");
@@ -69,3 +65,4 @@ Expected Output: "Eaksquay"
 
 
 
+             
